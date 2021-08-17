@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1v&7i-$i@vwe_q=i+f1lxmh5pv#377zln-l%rmhy96wu0m_=_m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-   'C:/Users/newsy/tryjango/project1/static/'
+   'static/'
 ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
